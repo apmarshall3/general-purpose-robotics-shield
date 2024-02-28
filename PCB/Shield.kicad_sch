@@ -1,0 +1,41 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid fb5cd38f-308a-430f-ba29-691a649fb154)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Temp sensing:\n- thermistor?\n- thermocouple?" (at 218.44 97.79 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1b08be10-1106-45c1-bab3-8cdd44422587)
+  )
+  (text "Depth sensing:\n- Pressure transducer?\n- Ultrasonics?\n- Capacitive?"
+    (at 218.44 83.82 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 881b36c4-333d-477e-b367-bfe9503b2d1b)
+  )
+
+  (sheet (at 53.34 44.45) (size 53.34 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cd467559-1874-477a-8f89-54a48a7ca005)
+    (property "Sheetname" "uC" (at 53.34 43.7384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "microcontroller.kicad_sch" (at 53.34 81.8646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Shield"
+        (path "/fb5cd38f-308a-430f-ba29-691a649fb154" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
