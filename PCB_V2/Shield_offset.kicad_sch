@@ -6343,8 +6343,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 137.16 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e816a132-1054-4fa4-af3d-635825246314))
     (pin "1" (uuid 8cf1bd1d-5de8-4902-bf57-5da49e55b994))
+    (pin "2" (uuid e816a132-1054-4fa4-af3d-635825246314))
     (instances
       (project "Shield_offset"
         (path "/fb5cd38f-308a-430f-ba29-691a649fb154"
@@ -7988,9 +7988,9 @@
     (property "Sim.Pins" "1=D 2=G 3=S" (at 322.58 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 93a88c0a-9cb5-4858-99d6-5a1280956361))
-    (pin "2" (uuid 0c2bfbaa-a77e-4088-9f2b-6fe5b7507ed0))
-    (pin "3" (uuid 2b826223-9212-4c5f-9e8b-50f00466321b))
+    (pin "1" (uuid 93a88c0a-9cb5-4858-99d6-5a1280956362))
+    (pin "2" (uuid 0c2bfbaa-a77e-4088-9f2b-6fe5b7507ed1))
+    (pin "3" (uuid 2b826223-9212-4c5f-9e8b-50f00466321c))
     (instances
       (project "Shield_offset"
         (path "/fb5cd38f-308a-430f-ba29-691a649fb154"
